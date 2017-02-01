@@ -55,21 +55,21 @@ div.ostalo
   }
 div.ostalo:hover
   {
-    background-color: #e6e6e6;
+    background-color: #b3b3b3;
     border:2px solid black;
     border-radius: 10px;
     top: 10vh;
   }
 div.seme:hover
     {
-      background-color: #e6e6e6;
+      background-color: #b3b3b3;
       border:2px solid black;
       border-radius: 10px;
       top: 10vh;
     }
 div.elektroliti:hover
       {
-        background-color: #e6e6e6;
+        background-color: #b3b3b3;
         border:2px solid black;
         border-radius: 10px;
         top: 10vh;
@@ -127,7 +127,7 @@ h2#tekst
   {
     text-align: center;
     padding-top: 5vh;
-    color: #262626;
+    color: #e6e6e6;
   }
 
 

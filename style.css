@@ -1,13 +1,109 @@
 body
   {
-    background-color: white;
+    background-color: #f2f2f2;
     margin: 0;
     padding: 0;
   }
-.zaglavlje
+div.zaglavlje
   {
     position: fixed;
-    width: 100%;
-    height: 5%;
+    width: 100% ;
+    height: 60vh;
+    background-color: #cccccc;
+  }
+div.wrap
+  {
+    position: fixed;
+    /*border: 2px solid black;*/
+    position: relative;
+    top: 55vh;
+    width: 50%;
+    height:44vh;
+  }
+div.elektroliti
+  {
+    float: left;
+    position: relative;
+    top: 13vh;
+    left: 10vh;
+    height: 20vh;
+    width: 20vh;
+    /*border: 2px solid black;*/
+  }
+div.seme
+  {
+    float: left;
+    position: relative;
+    top: 13vh;
+    left: 20vh;
+    height: 20vh;
+    width: 20vh;
+    /*border: 2px solid black;*/
+  }
+div.ostalo
+  {
+    float: left;
+    position: relative;
+    top: 13vh;
+    left: 30vh;
+    height: 20vh;
+    width: 20vh;
+  }
+div.ostalo:hover
+  {
+    border:2px solid black;
+    border-radius: 10px;
     background-color: black;
   }
+div.slika
+  {
+    width: 30vh;
+    height: 30vh;
+    position: relative;
+    top: 7vh;
+  }
+img.slikanaslov
+  {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+img.slikaPDF
+  {
+    position: relative;
+    top: 2.5vh;
+    width:75%;
+    height: 75%;
+
+  }
+img.slikaostalo
+  {
+    position: relative;
+    top: 2.5vh;
+    width:75%;
+    height: 75%;
+  }
+img.slikaelektrolit
+  {
+    position: relative;
+    top: 2.5vh;
+    width: 75%;
+    height: 75%;
+  }
+div.tekst
+  {
+    position: relative;
+    top: 5vh;
+    width: 100vh;
+    height: 20vh;
+    /*border: 2px solid black;*/
+  }
+h2#tekst
+  {
+    text-align: center;
+    padding-top: 5vh;
+    color: #262626;
+  }
+
+
+box-shadow: 10px 10px 5px #888888;

@@ -28,7 +28,8 @@ div.elektroliti
     left: 10vh;
     height: 20vh;
     width: 20vh;
-    /*border: 2px solid black;*/
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px #888888;
   }
 div.seme
   {
@@ -38,7 +39,8 @@ div.seme
     left: 20vh;
     height: 20vh;
     width: 20vh;
-    /*border: 2px solid black;*/
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px #888888;
   }
 div.ostalo
   {
@@ -48,13 +50,30 @@ div.ostalo
     left: 30vh;
     height: 20vh;
     width: 20vh;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px #888888;
   }
 div.ostalo:hover
   {
+    background-color: #e6e6e6;
     border:2px solid black;
     border-radius: 10px;
-    background-color: black;
+    top: 10vh;
   }
+div.seme:hover
+    {
+      background-color: #e6e6e6;
+      border:2px solid black;
+      border-radius: 10px;
+      top: 10vh;
+    }
+div.elektroliti:hover
+      {
+        background-color: #e6e6e6;
+        border:2px solid black;
+        border-radius: 10px;
+        top: 10vh;
+      }
 div.slika
   {
     width: 30vh;
@@ -70,22 +89,28 @@ img.slikanaslov
   }
 img.slikaPDF
   {
+    float: left;
     position: relative;
     top: 2.5vh;
+    left: 2.5vh;
     width:75%;
     height: 75%;
 
   }
 img.slikaostalo
   {
+    float: left;
     position: relative;
+    left: 2.5vh;
     top: 2.5vh;
     width:75%;
     height: 75%;
   }
 img.slikaelektrolit
   {
+    float: left;
     position: relative;
+    left: 2.5vh;
     top: 2.5vh;
     width: 75%;
     height: 75%;

@@ -9,6 +9,9 @@ div.zaglavlje
     position: fixed;
     width: 100% ;
     height: 60vh;
+    /*background-image: url("pozadina2.jpg");*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-color: #cccccc;
   }
 div.wrap
@@ -55,24 +58,27 @@ div.ostalo
   }
 div.ostalo:hover
   {
-    background-color: #b3b3b3;
+    background-color: #4dff88;
     border:2px solid black;
     border-radius: 10px;
     top: 10vh;
+    opacity: 0.5;
   }
 div.seme:hover
     {
-      background-color: #b3b3b3;
+      background-color: #4dff88;
       border:2px solid black;
       border-radius: 10px;
       top: 10vh;
+      opacity: 0.5;
     }
 div.elektroliti:hover
       {
-        background-color: #b3b3b3;
+        background-color: #4dff88;
         border:2px solid black;
         border-radius: 10px;
         top: 10vh;
+        opacity: 0.5;
       }
 div.slika
   {
@@ -125,6 +131,7 @@ div.tekst
   }
 h2#tekst
   {
+    
     text-align: center;
     padding-top: 5vh;
     color: #e6e6e6;

@@ -6,6 +6,7 @@ body
   }
 div.jumbotron text-center
   {
+    display: inline;
     width: 100% ;
     height: 60vh;
     /*background-image: url("pozadina2.jpg");*/

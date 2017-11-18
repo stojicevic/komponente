@@ -10,18 +10,38 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div class="container-fluid">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"><div class="icon"></div></a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a class="linkbackground" href="pageone.html">Komponente</a></li>
+          <li><a class="linkcolor" href="pagetwo.html">Seme</a></li>
+          <li><a class="linkcolor" href="pagethree.html">Linkovi</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container back">
       <div class="row">
-        <a href="index.html">
-          <div id="icon" class="col-md-1 col-xs-1">
-          </div>
-      </a>
-        <div class="col-md-2 col-xs-2">
-          <p>Komponente</p>
+        <div class="col-md-4 col-xs-12 prvi">
+          <ul class="ispravka lista">
+            <td><p class="title">Komponente</p></td>
+              <a class="choice" href="http://retam.rs/katalog#S29uZGVuemF0b3I=" target="search_iframe"><li class="data">Kondenzatori</li></a>
+              <a class="choice" href="http://retam.rs/katalog#T3Rwb3JuaWs=" target="search_iframe"><li class="data">Otpornici</li></a>
+              <a class="choice" href="http://retam.rs/katalog#SUMgbGlu" target="search_iframe"><li class="data">IC</li></a>
+              <a class="choice" href="http://retam.rs/katalog#RGlvZGE=" target="search_iframe"><li class="data">Diode</li></a>
+              <a class="choice" href="http://retam.rs/katalog#VHJhbnppc3Rvcg==" target="search_iframe"><li class="data">Tranzistori</li></a>
+          </ul>
+        </div>
+        <div class="col-md-8 col-xs-12 drugi">
+          <iframe src="http://retam.rs" width="100%" height="500px" name="search_iframe"></iframe>
         </div>
       </div>
-    </div>
-    <div class="container one">
     </div>
   </body>
 </html>

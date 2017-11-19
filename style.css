@@ -109,3 +109,6 @@ background-color:black !important;
   background-color:black;
   font-size:15px;
 }
+.navbar-toggle{
+  margin-top:5% !important;
+}
